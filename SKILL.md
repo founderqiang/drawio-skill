@@ -463,8 +463,11 @@ When the draw.io desktop CLI is unavailable, generate a browser-editable URL by 
 python3 -c "
 import zlib, base64, urllib.parse, sys
 xml = open(sys.argv[1]).read()
-compressed = zlib.compress(xml.encode('utf-8'), 9)
-encoded = base64.urlsafe_b64encode(compressed).decode('utf-8')
+# Raw deflate (no zlib header) — diagrams.net uses mxGraph's raw inflate
+c = zlib.compressobj(9, zlib.DEFLATED, -zlib.MAX_WBITS)
+compressed = c.compress(xml.encode('utf-8')) + c.flush()
+# Standard base64 (atob rejects url-safe -/_); strip any newlines
+encoded = base64.b64encode(compressed).decode('utf-8').replace('\n', '')
 print('https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&edit=_blank#R' + urllib.parse.quote(encoded, safe=''))
 " input.drawio
 ```
