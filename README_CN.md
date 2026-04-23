@@ -386,9 +386,9 @@ MIT
       <b>Buy Me a Coffee</b>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Agents365-ai/images_payment/main/awarding/award.gif" width="180" alt="Award">
+      <img src="https://raw.githubusercontent.com/Agents365-ai/images_payment/main/awarding/award.gif" width="180" alt="打赏">
       <br>
-      <b>Award</b>
+      <b>打赏</b>
     </td>
   </tr>
 </table>
