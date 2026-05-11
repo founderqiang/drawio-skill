@@ -47,6 +47,17 @@ See [USAGE.md](USAGE.md) for natural-language prompts, a microservices walkthrou
 
 See [STYLE_PRESETS.md](STYLE_PRESETS.md) for the built-in presets (`default` / `corporate` / `handdrawn`), the "learn my style from a file" workflow, and the full set of manage-presets commands.
 
+## Community
+
+Join us for help, Q&A, and updates:
+
+- **Discord:** https://discord.gg/79JF5Atuk
+- **WeChat:** scan the QR code below
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Agents365-ai/images_payment/main/qrcode/agents365ai_wechat_1.png" width="200" alt="WeChat Community Group">
+</p>
+
 ## Support
 
 If this skill helps you, consider supporting the author:

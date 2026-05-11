@@ -47,6 +47,17 @@
 
 参见 [STYLE_PRESETS_CN.md](STYLE_PRESETS_CN.md) —— 包含内置预设(`default` / `corporate` / `handdrawn`)、"从文件学习样式"流程,以及完整的预设管理命令。
 
+## 社区
+
+加入交流群获取帮助、提问和最新动态:
+
+- **Discord:** https://discord.gg/79JF5Atuk
+- **微信:** 扫描下方二维码
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Agents365-ai/images_payment/main/qrcode/agents365ai_wechat_1.png" width="200" alt="微信交流群">
+</p>
+
 ## 支持作者
 
 如果这个 skill 对你有帮助，欢迎支持作者：
