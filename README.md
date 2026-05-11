@@ -25,12 +25,14 @@ See [COMPARISON.md](COMPARISON.md) for side-by-side tables vs. native agents and
 
 ## Supported diagram types
 
-- **Architecture**: microservices, cloud (AWS/GCP/Azure), network topology, deployment — with tier-based swimlanes and hub-center strategy
-- **ML / Deep Learning**: Transformer, CNN, LSTM, GRU architectures — with tensor shape annotations and layer-type color coding
-- **Flowcharts**: business processes, workflows, decision trees, state machines — with semantic shape types (parallelogram I/O, diamond decisions)
-- **UML**: class diagrams (inheritance/composition/aggregation arrows), sequence diagrams (lifelines, activation boxes)
-- **Data**: ER diagrams (table containers, PK/FK notation), data flow diagrams (DFD)
-- **Other**: org charts, mind maps, wireframes
+| Category | Examples | Notable features |
+|---|---|---|
+| Architecture | microservices, cloud (AWS/GCP/Azure), network topology, deployment | Tier-based swimlanes, hub-center strategy |
+| ML / Deep Learning | Transformer, CNN, LSTM, GRU | Tensor shape annotations, layer-type color coding |
+| Flowcharts | business processes, workflows, decision trees, state machines | Semantic shapes (parallelogram I/O, diamond decisions) |
+| UML | class diagrams, sequence diagrams | Inheritance / composition / aggregation arrows; lifelines + activation boxes |
+| Data | ER diagrams, data flow diagrams (DFD) | Table containers, PK/FK notation |
+| Other | org charts, mind maps, wireframes | — |
 
 ## How it works
 
