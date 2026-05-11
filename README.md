@@ -12,16 +12,10 @@
 |---|---|
 | `.drawio` XML generation | From natural-language descriptions |
 | Multi-format export | PNG / SVG / PDF / JPG via the native draw.io desktop CLI |
-| 6 diagram type presets | ERD, UML Class, Sequence, Architecture, ML/Deep Learning, Flowchart — preset shapes, styles, layout conventions |
-| Animated connectors | `flowAnimation=1` for data-flow and pipeline diagrams (visible in SVG and draw.io desktop) |
-| ML model diagrams | Tensor shape annotations `(B, C, H, W)` — ideal for NeurIPS/ICML/ICLR papers |
-| Grid-aligned layout | All coordinates snap to 10px multiples for clean alignment |
-| Browser fallback | Generates diagrams.net URLs when the desktop CLI is unavailable |
-| Iterative design | Preview, gather feedback, refine until the diagram looks right |
-| Auto-launch desktop | Opens draw.io after export for manual fine-tuning |
+| 6 diagram type presets | ERD, UML Class, Sequence, Architecture, ML/Deep Learning, Flowchart |
+| Iterative review | Self-check + auto-fix (up to 2 rounds), then a 5-round feedback loop until you approve |
+| Style presets | Capture your visual style from a `.drawio` file or image, save by name, reapply on demand |
 | Auto-trigger | Activates whenever diagrams would help explain complex systems |
-| Style presets *(v1.3)* | Teach the skill your visual style from a `.drawio` file or image, save by name, reapply on demand |
-| Custom output dir *(v1.4)* | Ask for any path (`./artifacts/`, `docs/images/`); the skill `mkdir -p`s and exports — ideal for CI/CD pipelines |
 
 ## Comparison
 
