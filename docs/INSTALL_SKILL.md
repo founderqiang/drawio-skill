@@ -21,15 +21,7 @@ Common paths: `~/.claude/skills/` (Claude Code), `~/.config/opencode/skills/` (O
 
 ## Updates
 
-The skill auto-checks for updates once per 24 hours on first use in a conversation. When a new version is available, the agent prints a one-line notice in the reply. To apply:
-
-```bash
-cd <your-install-path>/drawio-skill && git pull
-```
-
-The check is read-only, self-throttled, and silent when up to date, offline, or not a git install — it won't block or slow the workflow.
-
-Plugin-marketplace installs update automatically via the 365-skills umbrella. Package-manager installs handle updates themselves:
+Updates flow through whatever channel you installed from:
 
 ```bash
 # Claude Code plugin
@@ -40,4 +32,10 @@ clawhub update drawio-pro-skill
 
 # SkillsMP
 skills update drawio-skill
+```
+
+For direct `git clone` installs, pull from your install directory:
+
+```bash
+cd <your-install-path>/drawio-skill && git pull
 ```

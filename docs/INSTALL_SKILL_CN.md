@@ -21,15 +21,7 @@ git clone https://github.com/Agents365-ai/drawio-skill.git ~/.claude/skills/draw
 
 ## 更新
 
-Skill 会在每次对话首次使用时自动检查更新（24 小时节流）。有新版本时，Agent 会在回复中打印一行提示。应用更新：
-
-```bash
-cd <你的安装路径>/drawio-skill && git pull
-```
-
-检查为只读、自节流，在已是最新版、离线、或非 git 安装时静默退出，不会阻塞或拖慢工作流。
-
-通过插件市场安装的用户通过 365-skills umbrella 自动更新。通过包管理器安装的用户直接用对应命令更新：
+按你的安装渠道走对应的更新命令：
 
 ```bash
 # Claude Code 插件
@@ -40,4 +32,10 @@ clawhub update drawio-pro-skill
 
 # SkillsMP
 skills update drawio-skill
+```
+
+通过 `git clone` 手动安装的用户，在安装目录下拉取：
+
+```bash
+cd <你的安装路径>/drawio-skill && git pull
 ```
