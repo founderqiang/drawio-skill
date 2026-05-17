@@ -31,7 +31,31 @@ A skill that turns natural-language descriptions into `.drawio` XML and exports 
   <img src="assets/microservices-example.png" width="800" alt="Microservices Architecture">
 </p>
 
-More walkthroughs (star / layered / ring topologies) in [docs/USAGE.md](docs/USAGE.md).
+### Topology gallery
+
+The skill routes edges cleanly across different topologies — no lines crossing through shapes.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/demo-star.png" alt="Star topology" width="100%"><br>
+      <b>Star</b> · 7 nodes<br>
+      <sub>Central message broker with 6 microservices radiating outward, zero edge crossings.</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/demo-layered.png" alt="Layered flow" width="100%"><br>
+      <b>Layered</b> · 10 nodes / 4 tiers<br>
+      <sub>E-commerce stack with horizontal and diagonal cross-connections routed via corridors.</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/demo-ring.png" alt="Ring cycle" width="100%"><br>
+      <b>Ring</b> · 8 nodes<br>
+      <sub>CI/CD pipeline with a closed loop and 2 spur branches flowing along the perimeter.</sub>
+    </td>
+  </tr>
+</table>
+
+Full walkthrough in [docs/USAGE.md](docs/USAGE.md).
 
 ## 🚀 Installation
 

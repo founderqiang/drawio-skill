@@ -31,7 +31,31 @@
   <img src="assets/microservices-example.png" width="800" alt="微服务架构图">
 </p>
 
-更多拓扑示例（星形 / 分层 / 环形）见 [docs/USAGE_CN.md](docs/USAGE_CN.md)。
+### 拓扑示例画廊
+
+Skill 支持多种图表拓扑，线条路由清晰 —— 不会穿越无关的形状。
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/demo-star-cn.png" alt="星形拓扑" width="100%"><br>
+      <b>星形</b> · 7 个节点<br>
+      <sub>中央消息代理 + 6 个微服务辐射排列，连线零交叉。</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/demo-layered-cn.png" alt="分层流程" width="100%"><br>
+      <b>分层</b> · 10 节点 / 4 层<br>
+      <sub>电商架构，同层水平 + 对角线交叉连线均通过路由走廊绕行。</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/demo-ring-cn.png" alt="环形拓扑" width="100%"><br>
+      <b>环形</b> · 8 个节点<br>
+      <sub>CI/CD 流水线，含闭合回路和 2 个分支，沿矩形外围流动。</sub>
+    </td>
+  </tr>
+</table>
+
+完整演练见 [docs/USAGE_CN.md](docs/USAGE_CN.md)。
 
 ## 🚀 安装
 
