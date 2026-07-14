@@ -36,6 +36,14 @@
 - **整洁布局** —— 网格对齐，间距随图表规模缩放，连线避开节点
 - **多智能体、零配置** —— 从单个 SKILL.md 运行，无需 MCP、无后台 daemon（可选的 `npx` 安装器需要 Node，skill 本身不需要）
 
+## 🗺️ 功能全景
+
+<div align="center">
+  <img src="assets/mindmap-cn.png" width="900" alt="drawio-skill 功能全景图 —— 一张脑图看全所有能力，且由本 skill 自身绘制">
+</div>
+
+一张图看全 Skill 的全部能力 —— 图表类型、导入来源、布局引擎、样式、导出格式、二次利用，一目了然。本功能全景图即由 drawio-skill 自身绘制。
+
 ## 🖼️ 示例
 
 > [!TIP]

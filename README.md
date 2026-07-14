@@ -36,6 +36,14 @@ A skill that turns natural-language descriptions into `.drawio` XML and exports 
 - **Clean layout** — grid-aligned, spacing scales with diagram size, connectors routed clear of nodes
 - **Multi-agent, zero-config** — runs from a single SKILL.md; no MCP server, no background daemon (the optional `npx` installer needs Node, the skill itself does not)
 
+## 🗺️ Feature Map
+
+<div align="center">
+  <img src="assets/mindmap.png" width="900" alt="drawio-skill feature map — one mind map covering every capability, itself drawn with the skill">
+</div>
+
+A bird's-eye view of everything the skill does — diagram types, import sources, layout engines, styling, export formats, and repurposing — in one map. Fittingly, this map was itself drawn with drawio-skill.
+
 ## 🖼️ Examples
 
 > [!TIP]
